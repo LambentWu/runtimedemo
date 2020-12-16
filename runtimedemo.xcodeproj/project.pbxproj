@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2516D72425871DC50055D35E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516D72325871DC50055D35E /* Person.m */; };
 		2535C20725831FDC0019D52C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2535C20625831FDC0019D52C /* AppDelegate.m */; };
 		2535C20A25831FDC0019D52C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2535C20925831FDC0019D52C /* SceneDelegate.m */; };
 		2535C20D25831FDC0019D52C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2535C20C25831FDC0019D52C /* ViewController.m */; };
@@ -14,9 +15,21 @@
 		2535C21225831FDE0019D52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2535C21125831FDE0019D52C /* Assets.xcassets */; };
 		2535C21525831FDE0019D52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2535C21325831FDE0019D52C /* LaunchScreen.storyboard */; };
 		2535C21825831FDE0019D52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2535C21725831FDE0019D52C /* main.m */; };
+		257FF5732588A7F600CBBD0A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257FF5722588A7F600CBBD0A /* RootViewController.m */; };
+		25A4135B2589E12800CD28F8 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4135A2589E12800CD28F8 /* ViewController1.m */; };
+		25A413602589E21E00CD28F8 /* UIImage+hz.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4135F2589E21E00CD28F8 /* UIImage+hz.m */; };
+		25A413642589E65C00CD28F8 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A413632589E65C00CD28F8 /* ViewController2.m */; };
+		25A4136E2589E9C100CD28F8 /* Person1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4136D2589E9C100CD28F8 /* Person1.m */; };
+		25A413722589E9CF00CD28F8 /* Dog1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A413712589E9CF00CD28F8 /* Dog1.m */; };
+		25A413782589F66900CD28F8 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A413772589F66900CD28F8 /* ViewController3.m */; };
+		25A4137D2589F70A00CD28F8 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4137C2589F70A00CD28F8 /* Person2.m */; };
+		25A41383258A42B900CD28F8 /* UITableView+LGDefaultDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A41381258A42B900CD28F8 /* UITableView+LGDefaultDisplay.m */; };
+		25A41387258A4C6D00CD28F8 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A41386258A4C6D00CD28F8 /* ViewController4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2516D72225871DC50055D35E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2516D72325871DC50055D35E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2535C20225831FDC0019D52C /* runtimedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtimedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2535C20525831FDC0019D52C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2535C20625831FDC0019D52C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +42,26 @@
 		2535C21425831FDE0019D52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2535C21625831FDE0019D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2535C21725831FDE0019D52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		257FF5712588A7F600CBBD0A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		257FF5722588A7F600CBBD0A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		25A413592589E12800CD28F8 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		25A4135A2589E12800CD28F8 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		25A4135E2589E21E00CD28F8 /* UIImage+hz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+hz.h"; sourceTree = "<group>"; };
+		25A4135F2589E21E00CD28F8 /* UIImage+hz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+hz.m"; sourceTree = "<group>"; };
+		25A413622589E65C00CD28F8 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		25A413632589E65C00CD28F8 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		25A4136C2589E9C100CD28F8 /* Person1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person1.h; sourceTree = "<group>"; };
+		25A4136D2589E9C100CD28F8 /* Person1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person1.m; sourceTree = "<group>"; };
+		25A413702589E9CF00CD28F8 /* Dog1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog1.h; sourceTree = "<group>"; };
+		25A413712589E9CF00CD28F8 /* Dog1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog1.m; sourceTree = "<group>"; };
+		25A413762589F66900CD28F8 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		25A413772589F66900CD28F8 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		25A4137B2589F70A00CD28F8 /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		25A4137C2589F70A00CD28F8 /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
+		25A41381258A42B900CD28F8 /* UITableView+LGDefaultDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LGDefaultDisplay.m"; sourceTree = "<group>"; };
+		25A41382258A42B900CD28F8 /* UITableView+LGDefaultDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LGDefaultDisplay.h"; sourceTree = "<group>"; };
+		25A41385258A4C6D00CD28F8 /* ViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		25A41386258A4C6D00CD28F8 /* ViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2516D72125871DA30055D35E /* 归档和解档 */ = {
+			isa = PBXGroup;
+			children = (
+				2516D72225871DC50055D35E /* Person.h */,
+				2516D72325871DC50055D35E /* Person.m */,
+			);
+			path = "归档和解档";
+			sourceTree = "<group>";
+		};
 		2535C1F925831FDC0019D52C = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +103,27 @@
 		2535C20425831FDC0019D52C /* runtimedemo */ = {
 			isa = PBXGroup;
 			children = (
+				25A41380258A3D0D00CD28F8 /* 方法交换2 */,
+				25A413752589F64000CD28F8 /* 消息转发机制 */,
+				25A4136A2589E6D800CD28F8 /* KVO实现原理 */,
+				257FF5752588AA1000CBBD0A /* 交换方法 */,
+				2516D72125871DA30055D35E /* 归档和解档 */,
 				2535C20525831FDC0019D52C /* AppDelegate.h */,
 				2535C20625831FDC0019D52C /* AppDelegate.m */,
+				257FF5712588A7F600CBBD0A /* RootViewController.h */,
+				257FF5722588A7F600CBBD0A /* RootViewController.m */,
 				2535C20825831FDC0019D52C /* SceneDelegate.h */,
 				2535C20925831FDC0019D52C /* SceneDelegate.m */,
 				2535C20B25831FDC0019D52C /* ViewController.h */,
 				2535C20C25831FDC0019D52C /* ViewController.m */,
+				25A413592589E12800CD28F8 /* ViewController1.h */,
+				25A4135A2589E12800CD28F8 /* ViewController1.m */,
+				25A413622589E65C00CD28F8 /* ViewController2.h */,
+				25A413632589E65C00CD28F8 /* ViewController2.m */,
+				25A413762589F66900CD28F8 /* ViewController3.h */,
+				25A413772589F66900CD28F8 /* ViewController3.m */,
+				25A41385258A4C6D00CD28F8 /* ViewController4.h */,
+				25A41386258A4C6D00CD28F8 /* ViewController4.m */,
 				2535C20E25831FDC0019D52C /* Main.storyboard */,
 				2535C21125831FDE0019D52C /* Assets.xcassets */,
 				2535C21325831FDE0019D52C /* LaunchScreen.storyboard */,
@@ -74,6 +131,44 @@
 				2535C21725831FDE0019D52C /* main.m */,
 			);
 			path = runtimedemo;
+			sourceTree = "<group>";
+		};
+		257FF5752588AA1000CBBD0A /* 交换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				25A4135E2589E21E00CD28F8 /* UIImage+hz.h */,
+				25A4135F2589E21E00CD28F8 /* UIImage+hz.m */,
+			);
+			path = "交换方法";
+			sourceTree = "<group>";
+		};
+		25A4136A2589E6D800CD28F8 /* KVO实现原理 */ = {
+			isa = PBXGroup;
+			children = (
+				25A4136C2589E9C100CD28F8 /* Person1.h */,
+				25A4136D2589E9C100CD28F8 /* Person1.m */,
+				25A413702589E9CF00CD28F8 /* Dog1.h */,
+				25A413712589E9CF00CD28F8 /* Dog1.m */,
+			);
+			path = "KVO实现原理";
+			sourceTree = "<group>";
+		};
+		25A413752589F64000CD28F8 /* 消息转发机制 */ = {
+			isa = PBXGroup;
+			children = (
+				25A4137B2589F70A00CD28F8 /* Person2.h */,
+				25A4137C2589F70A00CD28F8 /* Person2.m */,
+			);
+			path = "消息转发机制";
+			sourceTree = "<group>";
+		};
+		25A41380258A3D0D00CD28F8 /* 方法交换2 */ = {
+			isa = PBXGroup;
+			children = (
+				25A41382258A42B900CD28F8 /* UITableView+LGDefaultDisplay.h */,
+				25A41381258A42B900CD28F8 /* UITableView+LGDefaultDisplay.m */,
+			);
+			path = "方法交换2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +241,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2535C20D25831FDC0019D52C /* ViewController.m in Sources */,
+				25A413722589E9CF00CD28F8 /* Dog1.m in Sources */,
+				25A413782589F66900CD28F8 /* ViewController3.m in Sources */,
+				25A4135B2589E12800CD28F8 /* ViewController1.m in Sources */,
 				2535C20725831FDC0019D52C /* AppDelegate.m in Sources */,
+				25A41383258A42B900CD28F8 /* UITableView+LGDefaultDisplay.m in Sources */,
+				25A4137D2589F70A00CD28F8 /* Person2.m in Sources */,
+				257FF5732588A7F600CBBD0A /* RootViewController.m in Sources */,
+				2516D72425871DC50055D35E /* Person.m in Sources */,
+				25A413642589E65C00CD28F8 /* ViewController2.m in Sources */,
+				25A413602589E21E00CD28F8 /* UIImage+hz.m in Sources */,
+				25A41387258A4C6D00CD28F8 /* ViewController4.m in Sources */,
 				2535C21825831FDE0019D52C /* main.m in Sources */,
+				25A4136E2589E9C100CD28F8 /* Person1.m in Sources */,
 				2535C20A25831FDC0019D52C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
